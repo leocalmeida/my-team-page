@@ -10,10 +10,46 @@
 
 body {
   margin: 0 auto;
-
-  /* width: 350px; */
 }
 
-.margin-left-12 {
-  margin-left: 12px;
+h1 {
+  font-family: "PT Serif", sans-serif;
+  font-weight: 700;
 }
+
+span {
+  font-family: "PT Serif", sans-serif;
+  font-weight: 400;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.person .img-role {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: initial;
+}
+
+.person span {
+  writing-mode: vertical-lr;
+  
+}
+
+.person p {
+  font-weight: 600;
+}
+
+
+
+footer {
+  width: 100%;
+  height: 50px;
+}
+
+
+
+

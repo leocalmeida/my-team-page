@@ -1,0 +1,24 @@
+@media(max-width: 534px){
+  body {
+      width: 90%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+}
+
+section img {
+    width: 138px;
+}
+
+.description h2{
+  font-size: 18px;
+}
+
+.description p {
+  font-size: 14px;
+}
+
+
+}
